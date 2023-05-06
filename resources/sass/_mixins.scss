@@ -1,0 +1,46 @@
+@each $name, $value in $asset-colors {
+    .btn-#{$name} {
+        text-align: center;
+        display: inline-block;
+        vertical-align: baseline;
+        font-size: inherit;
+        border-radius: 4px;
+        padding: $small-s $small-l;
+        border: 1px solid $value;
+        box-sizing: border-box;
+        color: setColor($value);
+        background: $value;
+        transition: background .2s, color .2s;
+        font-family: inherit;
+
+        svg {
+            vertical-align: middle;
+        }
+
+        &:hover {
+            background: darken($value, 10%);
+        }
+    }
+    .btn-outline-#{$name} {
+        text-align: center;
+        display: inline-block;
+        vertical-align: baseline;
+        font-size: inherit;
+        border-radius: 4px;
+        padding: $small-s $small-l;
+        border: 1px solid $value;
+        box-sizing: border-box;
+        color: $value;
+        font-family: inherit;
+        transition: background .2s, color .2s;
+
+        svg {
+            vertical-align: middle;
+        }
+
+        &:hover {
+            background: $value;
+            color: setColor($value);
+        }
+    }
+}

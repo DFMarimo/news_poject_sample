@@ -1,0 +1,12 @@
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 1.2rem;
+    background: #fff;
+    .detail {
+        background: #fefefe;
+        display: flex;
+        justify-content: start;
+        direction: ltr;
+        color: $text-mute-dark;
+    }
+}

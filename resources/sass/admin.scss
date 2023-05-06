@@ -1,0 +1,21 @@
+@import "bootstrap/dist/css/bootstrap.rtl.min.css";
+@import "bootstrap-icons/font/bootstrap-icons";
+@import "vazirmatn/Vazirmatn-font-face.css";
+
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Vazirmatn, serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}

@@ -1,0 +1,102 @@
+$color-first: #eee;
+$color-second: #fff;
+$color-third: #ccc;
+$colors: (
+    "color-first": #eee,
+    "color-second": #fff,
+    "color-third": #ccc,
+);
+
+$primary-1: #2c5295;
+$primary-2: #205295;
+$primary-3: #144272;
+$info-1: #39a2db;
+$info-2: #a2dbfa;
+$info-3: #e1f4f3;
+$warning-1: #ffb840;
+$warning-2: #ffd369;
+$warning-3: #fde49c;
+$danger-1: #723223;
+$danger-2: #ff6d60;
+$danger-3: #e65c4f;
+$dark-1: #393e46;
+$dark-2: #333333;
+$dark-3: #222831;
+$light-1: #f7f7f7;
+$light-2: #eeeeee;
+$light-3: #cccccc;
+$success-1: #9dc08b;
+$success-2: #069966;
+$success-3: #40513b;
+$asset-colors: (
+    "primary-1":#2c5295,
+    "primary-2":#205295,
+    "primary-3":#144272,
+    "info-1":#39a2db,
+    "info-2":#a2dbfa,
+    "info-3":#e1f4f3,
+    "warning-1":#ffb840,
+    "warning-2":#ffd369,
+    "warning-3":#fde49c,
+    "danger-1":#723223,
+    "danger-2":#ff6d60,
+    "danger-3":#e65c4f,
+    "dark-1":#393e46,
+    "dark-2":#333,
+    "dark-3":#222831,
+    "light-1":#f7f7f7,
+    "light-2":#eee,
+    "light-3":#ccc,
+    "success-1":#9dc08b,
+    "success-2":#069966,
+    "success-3":#40513b,
+);
+
+$text-primary-dark: #333;
+$text-mute-dark: #727077;
+$text-disable-dark: #adadad;
+$text-primary-light: #f7f6f2;
+$text-mute-light: #eeeeee;
+$text-disable-light: #706c61;
+
+$small-s: .25rem;
+$small-m: .5rem;
+$small-l: .75rem;
+$medium-s: 1rem;
+$medium-m: 1.25rem;
+$medium-l: 1.5rem;
+$large-s: 2rem;
+$large-m: 3rem;
+$large-l: 4rem;
+$sizes: (
+    "small-s": $small-s,
+    "small-m": $small-m,
+    "small-l": $small-l,
+    "medium-s": $medium-s,
+    "medium-m": $medium-m,
+    "medium-l": $medium-l,
+    "large-s": $large-s,
+    "large-m": $large-m,
+    "large-l": $large-l,
+);
+
+$portrait-mobile: 480px;
+$landscape-mobile: 768px;
+$tablet: 992px;
+$mini-laptop: 1024px;
+$laptop: 1200px;
+$breakpoint: (
+    "portrait-mobile":480px,
+    "landscape-mobile":768px,
+    "tablet":990px,
+    "mini-laptop":1024px,
+    "laptop":1200px
+);
+
+$font-index-first: Vazirmatn, serif;
+$font-index-second: Vazirmatn, serif;
+$font-index-third: Vazirmatn, serif;
+
+$shadow-1: 0px 10px 15px -3px rgba(0,0,0,0.1);
+$shadow-2: 0px 10px 15px -3px rgba(0,0,0,0.2);
+$shadow-3: 0px 10px 15px -3px rgba(0,0,0,0.3);

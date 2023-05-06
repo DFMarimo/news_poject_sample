@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    position: sticky;
+    li a{
+        box-sizing: border-box;
+        font-size: $medium-s;
+        color: $text-mute-dark;
+        transition: color ease-in-out .1s;
+        font-weight: 600;
+        padding: $small-m $small-m;
+        &:hover{
+            color: $text-primary-dark;
+        }
+    }
+}
+
+@media only screen and (max-width: $landscape-mobile) {
+    .menu{
+        display: flex;
+        justify-content: center;
+        li a{
+            font-size: .875rem;
+            font-weight: 500;
+        }
+    }
+}
